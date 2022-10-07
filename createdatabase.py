@@ -6,6 +6,7 @@ while True:
         break
     passwd = input("请输入用户密码 : ")
     mobile = input("请输入电话号码 : ")
+    # 连接数据库
     conn = pymysql.connect(
             host='127.0.0.1',
             user='root',
